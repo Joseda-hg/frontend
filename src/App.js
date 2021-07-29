@@ -8,20 +8,32 @@ import { Footer } from './components/Footer'
 export function App() {
   return (
     <>
-<Router>
-  <Navbar />
-  <Switch> 
-    <Route exact path= "/">
-      <Home />
-    </Route>
-    <Route path = "/ejercicios">
-<Ejercicio />
-    </Route>
-  </Switch>
-  <Footer />
-</Router>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/ejercicios">
+            <Ejercicio />
+          </Route>
+          <Route path="/blog">
+            {/* <Ejercicio /> */}
+          </Route>
+          <Route path="/Podcast">
+            {/* <Ejercicio /> */}
+          </Route>
+          <Route path="/About">
+            {/* <Ejercicio /> */}
+          </Route>
+          <Route path="/Contact">
+            {/* <Ejercicio /> */}
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </>
-  )
+  );
 }
 
 

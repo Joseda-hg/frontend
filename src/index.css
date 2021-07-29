@@ -8,9 +8,6 @@ padding-bottom: 1%;
 padding-bottom: 1%;
 }
 
-/* #ejerciciolist{
-  
-} */
 
 #card{
   content: center;
@@ -19,3 +16,81 @@ padding-bottom: 1%;
 #form-control {
   padding: 5%;
 }
+
+.navbar-brand{
+  padding: 5%;
+}
+
+footer {
+  background: #FF01F6;
+  background: -webkit-linear-gradient(right, #FF01F6, #0E79DA);
+  background: -moz-linear-gradient(right, #FF01F6, #0E79DA);
+  background: linear-gradient(to left, #FF01F6, #0E79DA);;
+  color: rgb(233, 233, 233);
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+  color: white
+}
+
+/* Set a specific color for each brand */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e6408d;
+  color: white;
+}
+
+.fa-youtube {
+  background: #ff0000;
+  color: white;
+}
+
+.fa-envelope {
+  background: skyblue;
+  color: white;
+}
+
+#socialmedia {
+  display: flex;
+  justify-content:space-evenly;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#Copyright{
+  display:flex;
+  justify-content:space-evenly;
+  padding-bottom: 5%;
+  align-self: center;
+}
+
+
+@media all and (min-width: 992px) {
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .nav-link{ color: #fff;  }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+
