@@ -4,9 +4,9 @@ export function Navbar() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           Mercurial Design
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,7 +30,7 @@ export function Navbar() {
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -40,33 +40,33 @@ export function Navbar() {
                 Proyectos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   StudyApp
                 </a>
-                <a class="dropdown-item" href="#">
+                <Link class="dropdown-item" to="/ejercicios">
                   FitApp
-                </a>
-                <a class="dropdown-item" href="#">
+                </Link>
+                <Link class="dropdown-item" to="/">
                   HealthApp
-                </a>
-                <a class="dropdown-item" href="#">
+                </Link>
+                <a class="dropdown-item" href="/">
                   SalesApp
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Clicker Game
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Document Generator
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Action
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Another action
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Something else here
                 </a>
               </div>
@@ -75,7 +75,7 @@ export function Navbar() {
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -85,57 +85,57 @@ export function Navbar() {
                 Cursos y Libros
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Alfabetizacion Digital
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Ingles
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Metodo de estudios
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Programacion en Python
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Programacion Web
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Programacion en Rust
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Programacion en C#
                 </a>
 
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   Something else here
                 </a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/Blog">
                 Blog
-              </a>
+              </Link>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/Podcast">
                 Podcast
-              </a>
+              </Link>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/About">
                 Sobre Nosotros
-              </a>
+              </Link>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <Link class="nav-link" to="/Contact">
                 Contactanos
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

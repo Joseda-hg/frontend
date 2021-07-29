@@ -1,12 +1,12 @@
 body {
   padding-right: 2%;
   padding-left: 1%;
-}
+} 
 
-.li {
+ /* .li {
 padding-bottom: 1%;
 padding-bottom: 1%;
-}
+} */
 
 
 #card{
@@ -17,9 +17,9 @@ padding-bottom: 1%;
   padding: 5%;
 }
 
-.navbar-brand{
+/* .navbar-brand{
   padding: 5%;
-}
+} */
 
 footer {
   background: #FF01F6;
@@ -31,10 +31,11 @@ footer {
 }
 
 /* Style all font awesome icons */
+
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 55px;
+  /* width: 55px; */
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -87,10 +88,9 @@ footer {
 }
 
 
-@media all and (min-width: 992px) {
+/* @media all and (min-width: 992px) {
 .navbar .nav-item .dropdown-menu{ display: none; }
 .navbar .nav-item:hover .nav-link{ color: #fff;  }
 .navbar .nav-item:hover .dropdown-menu{ display: block; }
 .navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-
+}	 */

@@ -4,6 +4,11 @@ import { Navbar } from './components/Navbar'
 import { Ejercicio } from "./components/Ejercicio"
 import { Home } from "./components/Home"
 import { Footer } from './components/Footer'
+import { Blog } from "./components/Blog"
+import { Podcast } from './components/Podcast'
+import { About } from './components/About'
+import { Contact } from './components/Contact'
+
 
 export function App() {
   return (
@@ -18,16 +23,16 @@ export function App() {
             <Ejercicio />
           </Route>
           <Route path="/blog">
-            {/* <Ejercicio /> */}
+            <Blog />
           </Route>
           <Route path="/Podcast">
-            {/* <Ejercicio /> */}
+            <Podcast />
           </Route>
           <Route path="/About">
-            {/* <Ejercicio /> */}
+            <About />
           </Route>
           <Route path="/Contact">
-            {/* <Ejercicio /> */}
+            <Contact/>
           </Route>
         </Switch>
         <Footer />

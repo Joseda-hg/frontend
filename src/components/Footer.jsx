@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export function Footer() {
     return (
         <div>
             <footer>
         <div id="socialmedia">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-envelope"></a>
+        <Link to="/" class="fa fa-facebook"></Link>
+        <Link to="/" class="fa fa-twitter"></Link>
+        <Link to="/" class="fa fa-instagram"></Link>
+        <Link to="/" class="fa fa-youtube"></Link>
+        <Link to="/" class="fa fa-envelope"></Link>
         </div>
         <div id="Copyright">
         <p id="Copytext">Copyright © Mercurial Design. All Rights reserved</p>
