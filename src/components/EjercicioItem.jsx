@@ -1,7 +1,7 @@
 import React from 'react'
 
 export function EjercicioItem({ejercicio}) {
-    
+
     return (
         // <li >
         //     {ejercicio.id} - 
@@ -15,7 +15,7 @@ export function EjercicioItem({ejercicio}) {
   <div class="card-body">
     <h3 class="card-title"> ID del Ejercicio: { ejercicio.id } </h3>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Comprobar Ejercicio</a>
+    <a href="/" class="btn btn-primary">Comprobar Ejercicio</a>
   </div>
 </div>
     )
