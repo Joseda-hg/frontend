@@ -27,7 +27,7 @@ export function Navbar() {
               </Link>
             </li>
 
-            <li class="nav-item dropdown">
+            {/* <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="/"
@@ -113,7 +113,7 @@ export function Navbar() {
                   Something else here
                 </a>
               </div>
-            </li>
+            </li> */}
             <li class="nav-item">
               <Link class="nav-link" to="/Blog">
                 Blog

@@ -19,16 +19,35 @@ export function Contact() {
             We'll never share your email with anyone else.
           </small>
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
+
+        <label for="exampleInputEmail1">Name</label>
           <input
-            type="password"
+            type="email"
             class="form-control"
-            id="exampleInputPassword1"
-            placeholder="Password"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter your name"
           >
           </input>
-        </div>
+          <small id="emailHelp" class="form-text text-muted">
+            We'll never share your email with anyone else.
+          </small>
+
+          <label for="exampleInputEmail1">Message</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter your mwssage"
+          >
+          </input>
+          <small id="emailHelp" class="form-text text-muted">
+            We'll never share your email with anyone else.
+          </small>
+
+
+
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           </input>
