@@ -8,7 +8,7 @@ import { Blog } from "./components/Blog"
 import { Podcast } from './components/Podcast'
 import { About } from './components/About'
 import { Contact } from './components/Contact'
-
+import { Post } from './components/Post'
 
 export function App() {
   return (
@@ -34,8 +34,8 @@ export function App() {
           <Route path="/Contact">
             <Contact/>
           </Route>
-          <Route path={`/blog/:id`}>
-            Var
+          <Route path={`/Blog/:id`}>
+            <Post />
           </Route>
         </Switch>
         <Footer />
