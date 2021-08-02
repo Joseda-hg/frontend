@@ -22,17 +22,20 @@ export function App() {
           <Route path="/ejercicios">
             <Ejercicio />
           </Route>
-          <Route path="/blog">
+          <Route exact path="/blog">
             <Blog />
           </Route>
           <Route path="/Podcast">
             <Podcast />
           </Route>
-          <Route path="/About">
+          <Route exact path="/About">
             <About />
           </Route>
           <Route path="/Contact">
             <Contact/>
+          </Route>
+          <Route path={`/blog/:id`}>
+            Var
           </Route>
         </Switch>
         <Footer />
