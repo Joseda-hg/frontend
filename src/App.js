@@ -10,6 +10,8 @@ import { About } from './components/About'
 import { Contact } from './components/Contact'
 import { Post } from './components/Post'
 
+// TODO extraer componente router
+
 export function App() {
   return (
     <>
