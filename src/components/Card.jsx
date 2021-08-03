@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function PodcastCard() {
+export function Card() {
     return (
-        <div>
-            <div className="card mb-3">
+      <>
+        <div className="card mb-3">
           <img src="" className="card-img-top" alt="..."></img>
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
@@ -17,6 +17,6 @@ export default function PodcastCard() {
             </p>
           </div>
         </div>
-        </div>
-    )
+      </>
+    );
 }

@@ -1,12 +1,11 @@
 import React from "react";
-import { BlogCard } from "./BlogCard";
+import { PostList } from "./PostList";
 
 
 export function Blog() {
   return (
-    <div>
-      Blog
-      <BlogCard />
-    </div>
+    <>
+      <PostList></PostList>
+    </>
   );
 }

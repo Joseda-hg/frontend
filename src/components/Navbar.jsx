@@ -115,7 +115,7 @@ export function Navbar() {
                 </a>
               </div>
             </li> */}
-            
+
             <li className="nav-item">
               <Link className="nav-link" to="/Blog">
                 Blog

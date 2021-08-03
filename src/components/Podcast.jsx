@@ -1,10 +1,6 @@
-import React from 'react'
-import PodcastCard from './PodcastCard'
+import React from "react";
+import { PostList } from "./PostList";
+
 export function Podcast() {
-    return (
-        <div>
-            Podcast
-            <PodcastCard/>
-        </div>
-    )
+  return <PostList></PostList>;
 }

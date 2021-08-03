@@ -7,12 +7,12 @@ import "easymde/dist/easymde.min.css";
 class Editor extends React.Component {
     render() {
       return (
-        <div>
+        <>
           <textarea
             ref={ref => (this.textareaRef = ref)}
             defaultValue="With Ref"
           />
-        </div>
+        </>
       );
     }
     componentDidMount() {
