@@ -7,15 +7,6 @@ export function Blog() {
     <div>
       Blog
       <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
     </div>
   );
 }

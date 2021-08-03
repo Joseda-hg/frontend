@@ -5,15 +5,6 @@ export function Podcast() {
         <div>
             Podcast
             <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
-            <PodcastCard/>
         </div>
     )
 }
