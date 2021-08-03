@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 export function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <Link class="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to="/">
           Mercurial Design
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -17,20 +17,20 @@ export function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto nav-fill w-100">
-            <li class="nav-item active">
-              <Link class="nav-link active" to="/">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto nav-fill w-100">
+            <li className="nav-item active">
+              <Link className="nav-link active" to="/">
                 Home{" "}
               </Link>
             </li>
 
-            {/* <li class="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="/"
                 id="navbarDropdown"
                 role="button"
@@ -40,42 +40,42 @@ export function Navbar() {
               >
                 Proyectos
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/">
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="/">
                   StudyApp
                 </a>
-                <Link class="dropdown-item" to="/ejercicios">
+                <Link className="dropdown-item" to="/ejercicios">
                   FitApp
                 </Link>
-                <Link class="dropdown-item" to="/">
+                <Link className="dropdown-item" to="/">
                   HealthApp
                 </Link>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   SalesApp
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Clicker Game
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Document Generator
                 </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/">
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="/">
                   Action
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Another action
                 </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/">
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="/">
                   Something else here
                 </a>
               </div>
             </li>
 
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="/"
                 id="navbarDropdown"
                 role="button"
@@ -85,56 +85,57 @@ export function Navbar() {
               >
                 Cursos y Libros
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/">
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item" href="/">
                   Alfabetizacion Digital
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Ingles
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Metodo de estudios
                 </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/">
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="/">
                   Programacion en Python
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Programacion Web
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Programacion en Rust
                 </a>
-                <a class="dropdown-item" href="/">
+                <a className="dropdown-item" href="/">
                   Programacion en C#
                 </a>
 
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/">
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="/">
                   Something else here
                 </a>
               </div>
             </li> */}
-            <li class="nav-item">
-              <Link class="nav-link" to="/Blog">
+            
+            <li className="nav-item">
+              <Link className="nav-link" to="/Blog">
                 Blog
               </Link>
             </li>
 
-            <li class="nav-item">
-              <Link class="nav-link" to="/Podcast">
+            <li className="nav-item">
+              <Link className="nav-link" to="/Podcast">
                 Podcast
               </Link>
             </li>
 
-            <li class="nav-item">
-              <Link class="nav-link" to="/About">
+            <li className="nav-item">
+              <Link className="nav-link" to="/About">
                 Sobre Nosotros
               </Link>
             </li>
 
-            <li class="nav-item">
-              <Link class="nav-link" to="/Contact">
+            <li className="nav-item">
+              <Link className="nav-link" to="/Contact">
                 Contactanos
               </Link>
             </li>

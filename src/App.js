@@ -3,6 +3,7 @@ import { AppRouter } from './components/AppRouter';
 
 
 // TODO extraer componente router
+// Done
 
 export function App() {
   return (<>

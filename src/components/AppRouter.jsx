@@ -8,7 +8,8 @@ import { Blog } from "./Blog"
 import { Podcast } from './Podcast'
 import { About } from './About'
 import { Contact } from './Contact'
-import { Post } from './Post'
+import { BlogPost } from './BlogPost'
+import { PodcastPost } from './PodcastPost'
 
 
 export function AppRouter() {
@@ -16,6 +17,8 @@ export function AppRouter() {
         <div>
         <Router>
         <Navbar />
+
+        <div className="Content">
         <Switch>
           <Route exact path="/">
             <Home />
@@ -26,7 +29,7 @@ export function AppRouter() {
           <Route exact path="/blog">
             <Blog />
           </Route>
-          <Route path="/Podcast">
+          <Route exact path="/Podcast">
             <Podcast />
           </Route>
           <Route exact path="/About">
@@ -36,9 +39,13 @@ export function AppRouter() {
             <Contact/>
           </Route>
           <Route path={`/Blog/:id`}>
-            <Post />
+            <BlogPost />
+          </Route>
+          <Route path={`/Podcast/:id`}>
+            <PodcastPost />
           </Route>
         </Switch>
+        </div>
         <Footer />
       </Router>
         </div>

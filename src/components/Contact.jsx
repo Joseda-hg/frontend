@@ -5,7 +5,7 @@ export function Contact() {
     <div>
       Contact
       <form> 
-        <div class="form-group">
+        <div className="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
             type="email"
@@ -23,26 +23,26 @@ export function Contact() {
         <label for="exampleInputEmail1">Name</label>
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter your name"
           >
           </input>
-          <small id="emailHelp" class="form-text text-muted">
+          <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
           </small>
 
           <label for="exampleInputEmail1">Message</label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             placeholder="Enter your mwssage"
           >
           </input>
-          <small id="emailHelp" class="form-text text-muted">
+          <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
           </small>
 

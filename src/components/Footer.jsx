@@ -6,11 +6,11 @@ export function Footer() {
         <div>
             <footer>
         <div id="socialmedia">
-        <Link to="/" class="fa fa-facebook"></Link>
-        <Link to="/" class="fa fa-twitter"></Link>
-        <Link to="/" class="fa fa-instagram"></Link>
-        <Link to="/" class="fa fa-youtube"></Link>
-        <Link to="/" class="fa fa-envelope"></Link>
+        <Link to="/" className="fa fa-facebook"></Link>
+        <Link to="/" className="fa fa-twitter"></Link>
+        <Link to="/" className="fa fa-instagram"></Link>
+        <Link to="/" className="fa fa-youtube"></Link>
+        <Link to="/" className="fa fa-envelope"></Link>
         </div>
         <div id="Copyright">
         <p id="Copytext">Copyright © Mercurial Design. All Rights reserved</p>
