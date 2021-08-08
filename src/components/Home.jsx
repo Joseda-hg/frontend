@@ -7,6 +7,8 @@ export function Home() {
     <>
       <Link to="/ejercicios">
         <button> Llevame a los ejercicios</button>
+        {/* <button type="button" class="btn btn-primary btn-lg input-block-level ">Block level button</button> */}
+
       </Link>
     </>
   );

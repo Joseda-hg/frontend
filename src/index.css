@@ -9,8 +9,6 @@
 footer {
   background: #FF01F6;
   background: -webkit-linear-gradient(right, #FF01F6, #0E79DA);
-  background: -moz-linear-gradient(right, #FF01F6, #0E79DA);
-  background: linear-gradient(to left, #FF01F6, #0E79DA);;
   color: rgb(233, 233, 233);
   text-align: center;
 }
@@ -66,18 +64,39 @@ footer {
 
 #Copyright{
   display:flex;
-  justify-content:space-evenly;
+  justify-content:center;
   padding-bottom: 5%;
   align-self: center;
 }
 
-.Content{
-  display: flex;
+#Content{
+  display: block;
   margin: auto;
-  color: #0E79DA;
-  align-content: center;
+  /* color: #0E79DA; */
+  /* align-items: center; */
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 1%;
+  color: black;
 }
 
+#logo{
+  align-self: center;
+  color: -webkit-linear-gradient(right, #FF01F6, #0E79DA);
+  border-radius: 50%
+}
+
+#PageTitle{
+  display: flex;
+  color: rgb(90, 88, 88);
+  justify-content: center;
+  text-align: center;
+}
+
+#formButton{
+  width: 100%;
+}
 /* @media all and (min-width: 992px) {
 .navbar .nav-item .dropdown-menu{ display: none; }
 .navbar .nav-item:hover .nav-link{ color: #fff;  }

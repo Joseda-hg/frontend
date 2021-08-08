@@ -9,6 +9,7 @@ import { Podcast } from './Podcast'
 import { About } from './About'
 import { Contact } from './Contact'
 import { Post } from './Post'
+import { Newsletter } from './Newsletter'
 
 
 export function AppRouter() {
@@ -17,7 +18,7 @@ export function AppRouter() {
         <Router>
           <Navbar />
 
-          <div className="Content">
+          <div id="Content" >
             <Switch>
               <Route exact path="/">
                 <Home />
@@ -33,6 +34,9 @@ export function AppRouter() {
               </Route>
               <Route exact path="/About">
                 <About />
+              </Route>
+              <Route path="/Newsletter">
+                <Newsletter />
               </Route>
               <Route path="/Contact">
                 <Contact />

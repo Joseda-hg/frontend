@@ -5,8 +5,8 @@ export function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" to="/">
-          Mercurial Design
+        <Link id="logo" className="navbar-brand" to="/">
+          HG
         </Link>
         <button
           className="navbar-toggler"
@@ -22,13 +22,7 @@ export function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto nav-fill w-100">
-            <li className="nav-item active">
-              <Link className="nav-link active" to="/">
-                Home{" "}
-              </Link>
-            </li>
-
-            {/* <li className="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="/"
@@ -58,17 +52,6 @@ export function Navbar() {
                 </a>
                 <a className="dropdown-item" href="/">
                   Document Generator
-                </a>
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/">
-                  Action
-                </a>
-                <a className="dropdown-item" href="/">
-                  Another action
-                </a>
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/">
-                  Something else here
                 </a>
               </div>
             </li>
@@ -108,13 +91,8 @@ export function Navbar() {
                 <a className="dropdown-item" href="/">
                   Programacion en C#
                 </a>
-
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/">
-                  Something else here
-                </a>
               </div>
-            </li> */}
+            </li>
 
             <li className="nav-item">
               <Link className="nav-link" to="/Blog">
@@ -131,6 +109,12 @@ export function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/About">
                 Sobre Nosotros
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" to="/Newsletter">
+               Newsletter
               </Link>
             </li>
 

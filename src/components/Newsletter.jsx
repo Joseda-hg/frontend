@@ -1,10 +1,10 @@
 import React from "react";
 
-export function Contact() {
+export function Newsletter() {
   return (
     <>
       <div>
-        <h1 id="PageTitle">Contact</h1>
+        <h1 id="PageTitle">Newsletter</h1>
       </div>
       <form>
         <div className="form-group">
@@ -26,15 +26,7 @@ export function Contact() {
           aria-describedby="emailHelp"
           placeholder="Enter your name"
         ></input>
-        <label for="exampleInputEmail1">Message</label>
-        <input
-          type="text"
-          className="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter your message"
-        ></input>
-
+        
         <div class="form-check">
           <input
             type="checkbox"
