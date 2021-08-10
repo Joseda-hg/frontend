@@ -22,7 +22,7 @@ export function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto nav-fill w-100">
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="/"
@@ -92,7 +92,7 @@ export function Navbar() {
                   Programacion en C#
                 </a>
               </div>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link className="nav-link" to="/Blog">
