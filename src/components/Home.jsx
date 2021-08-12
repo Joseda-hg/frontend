@@ -5,8 +5,7 @@ export function Home() {
   return (
     <>
       <Link to="/ejercicios">
-        <button> Llevame a los ejercicios</button>
-        {/* <button type="button" class="btn btn-primary btn-lg input-block-level ">Block level button</button> */}
+        <button type="button" class="btn btn-primary btn-lg input-block-level ">Llevame a los ejercicios</button>
       </Link>
       <p>Soy Jose Hernandez</p>
       <p>Bienvenido a mi pagina web</p>
