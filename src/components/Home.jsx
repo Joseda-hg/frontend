@@ -1,18 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+
+
+
+function ModalAdvertencia() {
+  let modal = document.getElementById("myModal")
+  console.log(modal)
+  console.log(modal.attributes);
+  // modal.dataset.toggle= "modal"
+
+
+  console.log("ran")
+}
 
 export function Home() {
+// useEffect(() => 
+//     console.log("Use effect ran"),
+//     ModalAdvertencia()
+//   ,[]);
   return (
     <>
-      <button
-        type="button"
-        class="btn btn-danger"
-        data-toggle="modal"
-        data-target=".bd-example-modal-lg"
-      >
-        Lee esto antes de navegar el sitio
-      </button>
-<hr></hr>
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg">Lee esto antes de navegar el sitio</button>
+    <button onClick = {ModalAdvertencia}> Modal</button>
       <div
         class="modal fade bd-example-modal-lg"
         tabindex="-1"
@@ -34,6 +44,8 @@ export function Home() {
           </div>
         </div>
       </div>
+<hr></hr>
+      
 
       <Link to="/ejercicios">
         <button type="button" class="btn btn-primary btn-lg input-block-level ">
