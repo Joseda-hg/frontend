@@ -1,40 +1,28 @@
 import React from "react";
 import { EjercicioList } from "./EjercicioList";
-import {useEffect, useState} from "react"
-
-
+import useFetch from "./useFetch";
 
 export function Ejercicio() {
-  const [Ejercicios, setEjercicios] = useState(null);
-  useEffect(() => {
-    fetch("https://joseda-backend.herokuapp.com/api/ejercicios/")
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      setEjercicios(data);
-    })
-    .catch(function (err) {
-      // There was an error
-      console.warn("Something went wrong.", err);
-    });
-  }, [])
+  const { data: ejercicios } = useFetch(
+    "https://joseda-backend.herokuapp.com/api/ejercicios/"
+  );
+
   const handleEjercicioAdd = () => {};
-  
+
   const handleEjercicioRand = () => {};
   return (
     <div>
-{Ejercicios && <EjercicioList ejercicios={Ejercicios} />
-}      <input
+      {ejercicios && <EjercicioList ejercicios={ejercicios} />}
+      <input
         className="form-control"
         type="text"
         placeholder="Nuevo Ejercicio"
-        ></input>
+      ></input>
       <input
         className="form-control"
         type="text"
         placeholder="Descripcion"
-        ></input>
+      ></input>
       <button className="btn btn-primary" onClick={handleEjercicioAdd}>
         Añadir Ejercicio
       </button>
@@ -44,7 +32,7 @@ export function Ejercicio() {
         className="form-control"
         type="text"
         placeholder="Numero de Ejercicios"
-        ></input>
+      ></input>
       <button className="btn btn-primary" onClick={handleEjercicioRand}>
         Otros Ejercicios
       </button>

@@ -1,24 +1,14 @@
 import React from "react";
 import { AlimentoList } from "./AlimentoList";
-import {useEffect, useState} from "react"
+import useFetch from "./useFetch";
+// import {useEffect, useState} from "react"
 
 
 
 export function Alimento() {
-  const [Alimentos, setAlimentos] = useState(null);
-  useEffect(() => {
-    fetch("https://joseda-backend.herokuapp.com/api/alimentos/")
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      setAlimentos(data);
-    })
-    .catch(function (err) {
-      // There was an error
-      console.warn("Something went wrong.", err);
-    });
-  }, [])
+  const { data: Alimentos } = useFetch(
+    "https://joseda-backend.herokuapp.com/api/alimentos/"
+  );
   const handleEjercicioAdd = () => {};
   
   const handleEjercicioRand = () => {};
