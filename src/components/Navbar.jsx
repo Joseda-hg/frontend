@@ -35,22 +35,22 @@ export function Navbar() {
                 Proyectos
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/">
+                <a className="dropdown-item disabled" href="/">
                   StudyApp
                 </a>
                 <Link className="dropdown-item" to="/ejercicios">
                   FitApp
                 </Link>
-                <Link className="dropdown-item" to="/">
+                <Link className="dropdown-item" to="/alimentos">
                   HealthApp
                 </Link>
-                <a className="dropdown-item" href="/">
+                <a className="dropdown-item disabled" href="/">
                   SalesApp
                 </a>
-                <a className="dropdown-item" href="/">
+                <a className="dropdown-item disabled" href="/">
                   Clicker Game
                 </a>
-                <a className="dropdown-item" href="/">
+                <a className="dropdown-item disabled" href="/">
                   Document Generator
                 </a>
                 <li className="nav-item dropdown">

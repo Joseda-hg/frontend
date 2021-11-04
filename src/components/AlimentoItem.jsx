@@ -1,6 +1,6 @@
 import React from "react";
 
-export function EjercicioItem({ ejercicio }) {
+export function AlimentoItem({ ejercicio }) {
   return (
     <div className="card">
       <div className="card-header">{ejercicio.nombre}</div>
@@ -10,7 +10,7 @@ export function EjercicioItem({ ejercicio }) {
           With supporting text below as a natural lead-in to additional content.
         </p>
         <a href="/" className="btn btn-primary">
-          Comprobar Ejercicio
+          Comprobar Alimento
         </a>
       </div>
     </div>

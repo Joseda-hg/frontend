@@ -1,14 +1,27 @@
 import React from "react";
 import { PostList } from "./PostList";
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 
 
 export function Blog() {
-  const BlogList = []
+  const [BlogList, setBlogList] = useState(null);
+  useEffect(() => {
+    fetch("http://www.joseda.xyz/api/ejercicios/")
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      setBlogList(data);
+    })
+    .catch(function (err) {
+      // There was an error
+      console.warn("Something went wrong.", err);
+    });
+  }, [])
   return (
-    <>
-      <PostList List={BlogList}/>
-    </>
+    <div>
+{BlogList && <PostList list={BlogList} />}
+    </div>
   );
 }

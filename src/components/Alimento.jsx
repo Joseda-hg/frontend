@@ -1,18 +1,18 @@
 import React from "react";
-import { EjercicioList } from "./EjercicioList";
+import { AlimentoList } from "./AlimentoList";
 import {useEffect, useState} from "react"
 
 
 
-export function Ejercicio() {
-  const [Ejercicios, setEjercicios] = useState(null);
+export function Alimento() {
+  const [Alimentos, setAlimentos] = useState(null);
   useEffect(() => {
-    fetch("http://www.joseda.xyz/api/ejercicios/")
+    fetch("http://www.joseda.xyz/api/alimentos/")
     .then(function (response) {
       return response.json();
     })
     .then(function (data) {
-      setEjercicios(data);
+      setAlimentos(data);
     })
     .catch(function (err) {
       // There was an error
@@ -24,7 +24,7 @@ export function Ejercicio() {
   const handleEjercicioRand = () => {};
   return (
     <div>
-{Ejercicios && <EjercicioList ejercicios={Ejercicios} />
+{Alimentos && <AlimentoList alimentos={Alimentos} />
 }      <input
         className="form-control"
         type="text"
@@ -36,7 +36,7 @@ export function Ejercicio() {
         placeholder="Descripcion"
         ></input>
       <button className="btn btn-primary" onClick={handleEjercicioAdd}>
-        Añadir Ejercicio
+        Añadir Alimento
       </button>
 
       <p>Mas ejercicios</p>

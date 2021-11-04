@@ -8,22 +8,15 @@ function ModalAdvertencia() {
   let modal = document.getElementById("myModal")
   console.log(modal)
   console.log(modal.attributes);
-  // modal.dataset.toggle= "modal"
-
-
   console.log("ran")
 }
 
 export function Home() {
-// useEffect(() => 
-//     console.log("Use effect ran"),
-//     ModalAdvertencia()
-//   ,[]);
+useEffect(() => 
+    console.log("Use effect ran"),[]);
   return (
     <>
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg">Lee esto antes de navegar el sitio</button>
-    <button onClick = {ModalAdvertencia}> Modal</button>
-      <div
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg">Lee esto antes de navegar el sitio</button>      <div
         class="modal fade bd-example-modal-lg"
         tabindex="-1"
         role="dialog"
