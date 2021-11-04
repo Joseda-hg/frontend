@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 export function Podcast() {
   const [BlogList, setBlogList] = useState(null);
   useEffect(() => {
-    fetch("http://www.joseda.xyz/api/podcasts/")
+    fetch("https://joseda-backend.herokuapp.com/api/podcasts/")
     .then(function (response) {
       return response.json();
     })

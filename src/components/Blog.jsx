@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 export function Blog() {
   const [BlogList, setBlogList] = useState(null);
   useEffect(() => {
-    fetch("http://www.joseda.xyz/api/blogs/")
+    fetch("https://joseda-backend.herokuapp.com/api/blogs/")
     .then(function (response) {
       return response.json();
     })

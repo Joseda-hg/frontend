@@ -7,7 +7,7 @@ import {useEffect, useState} from "react"
 export function Ejercicio() {
   const [Ejercicios, setEjercicios] = useState(null);
   useEffect(() => {
-    fetch("http://www.joseda.xyz/api/ejercicios/")
+    fetch("https://joseda-backend.herokuapp.com/api/ejercicios/")
     .then(function (response) {
       return response.json();
     })
