@@ -1,5 +1,5 @@
 import React from "react";
-import { PostList } from "./PostList";
+import { FetchList } from "./FetchList";
 import { useEffect, useState } from "react";
 
 export function Podcast() {
@@ -19,7 +19,7 @@ export function Podcast() {
   }, [])
   return (
     <>
-{BlogList && <PostList list={BlogList} />}
+{BlogList && <FetchList list={BlogList} />}
     </>
   );
 }

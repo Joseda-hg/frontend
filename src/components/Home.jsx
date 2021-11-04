@@ -4,12 +4,12 @@ import { useEffect } from "react";
 
 
 
-function ModalAdvertencia() {
-  let modal = document.getElementById("myModal")
-  console.log(modal)
-  console.log(modal.attributes);
-  console.log("ran")
-}
+// function ModalAdvertencia() {
+//   let modal = document.getElementById("myModal")
+//   console.log(modal)
+//   console.log(modal.attributes);
+//   console.log("ran")
+// }
 
 export function Home() {
 useEffect(() => 

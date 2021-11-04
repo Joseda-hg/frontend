@@ -1,5 +1,5 @@
 import React from "react";
-import { PostList } from "./PostList";
+import { FetchList } from "./FetchList";
 import { useEffect, useState } from "react";
 
 
@@ -21,7 +21,7 @@ export function Blog() {
   }, [])
   return (
     <div>
-{BlogList && <PostList list={BlogList} />}
+{BlogList && <FetchList list={BlogList} />}
     </div>
   );
 }
