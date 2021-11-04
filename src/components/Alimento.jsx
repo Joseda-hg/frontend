@@ -1,9 +1,6 @@
 import React from "react";
 import { AlimentoList } from "./AlimentoList";
 import useFetch from "./useFetch";
-// import {useEffect, useState} from "react"
-
-
 
 export function Alimento() {
   const { data: Alimentos } = useFetch(

@@ -12,7 +12,6 @@ import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
 import { Alimento } from "./Alimento"
 
-
 export function AppRouter() {
   return (
     <>
@@ -46,7 +45,6 @@ export function AppRouter() {
               <Contact />
             </Route>
             
-            {/* TODO add id and type of post */}
             <Route path={`/Blog/:id`}>
               <Post type="Post" />
             </Route>

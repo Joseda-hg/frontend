@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function AlimentoItem({ ejercicio }) {
   return (
     <div className="card">
@@ -17,7 +16,6 @@ function AlimentoItem({ ejercicio }) {
     </div>
   );
 }
-
 
 export function AlimentoList({ alimentos }) {
   return (
