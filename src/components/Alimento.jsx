@@ -7,31 +7,30 @@ export function Alimento() {
     "https://joseda-backend.herokuapp.com/api/alimentos/"
   );
   const handleEjercicioAdd = () => {};
-  
+
   const handleEjercicioRand = () => {};
   return (
     <div>
-{Alimentos && <AlimentoList alimentos={Alimentos} />
-}      <input
+      {Alimentos && <AlimentoList alimentos={Alimentos} />}{" "}
+      <input
         className="form-control"
         type="text"
         placeholder="Nuevo Ejercicio"
-        ></input>
+      ></input>
       <input
         className="form-control"
         type="text"
         placeholder="Descripcion"
-        ></input>
+      ></input>
       <button className="btn btn-primary" onClick={handleEjercicioAdd}>
         Añadir Alimento
       </button>
-
       <p>Mas ejercicios</p>
       <input
         className="form-control"
         type="text"
         placeholder="Numero de Ejercicios"
-        ></input>
+      ></input>
       <button className="btn btn-primary" onClick={handleEjercicioRand}>
         Otros Ejercicios
       </button>

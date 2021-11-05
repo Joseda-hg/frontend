@@ -26,7 +26,7 @@ export function Newsletter() {
           aria-describedby="emailHelp"
           placeholder="Enter your name"
         ></input>
-        
+
         <div class="form-check">
           <input
             type="checkbox"

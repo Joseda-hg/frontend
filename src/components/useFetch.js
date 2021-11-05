@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 const useFetch = (url) => {
-    const [data, setData] = useState(null);
+  const [data, setData] = useState(null);
 
-    useEffect(() => {
-      fetch(url)
+  useEffect(() => {
+    fetch(url)
       .then(function (response) {
         return response.json();
       })
@@ -15,8 +15,8 @@ const useFetch = (url) => {
         // There was an error
         console.warn("Something went wrong.", err);
       });
-    }, [url])
-    return { data }
-}
+  }, [url]);
+  return { data };
+};
 
-export default  useFetch;
+export default useFetch;

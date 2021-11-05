@@ -1,18 +1,17 @@
 import React from "react";
 // import useState from "react"
 
-
 export function Contact() {
   const handleContactSubmit = (event) => {
-    event.PreventDefault()
-    console.log("Ran")
-  }
+    event.PreventDefault();
+    console.log("Ran");
+  };
   return (
     <>
       <div>
         <h1 id="PageTitle">Contact</h1>
       </div>
-      <form onSubmit = {handleContactSubmit} >
+      <form onSubmit={handleContactSubmit}>
         <div className="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
@@ -52,7 +51,11 @@ export function Contact() {
           </label>
         </div>
 
-        <input type="submit" class="btn btn-primary btn-block" id="formButton"/>
+        <input
+          type="submit"
+          class="btn btn-primary btn-block"
+          id="formButton"
+        />
       </form>
     </>
   );

@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-
-
 // function ModalAdvertencia() {
 //   let modal = document.getElementById("myModal")
 //   console.log(modal)
@@ -12,11 +10,18 @@ import { useEffect } from "react";
 // }
 
 export function Home() {
-useEffect(() => 
-    console.log("Use effect ran"),[]);
+  useEffect(() => console.log("Use effect ran"), []);
   return (
     <>
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg">Lee esto antes de navegar el sitio</button>      <div
+      <button
+        type="button"
+        class="btn btn-danger"
+        data-toggle="modal"
+        data-target=".bd-example-modal-lg"
+      >
+        Lee esto antes de navegar el sitio
+      </button>{" "}
+      <div
         class="modal fade bd-example-modal-lg"
         tabindex="-1"
         role="dialog"
@@ -37,9 +42,7 @@ useEffect(() =>
           </div>
         </div>
       </div>
-<hr></hr>
-      
-
+      <hr></hr>
       <Link to="/ejercicios">
         <button type="button" class="btn btn-primary btn-lg input-block-level ">
           Llevame a los ejercicios

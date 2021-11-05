@@ -10,14 +10,14 @@ import { About } from "./About";
 import { Contact } from "./Contact";
 import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
-import { Alimento } from "./Alimento"
+import { Alimento } from "./Alimento";
 
 export function AppRouter() {
   return (
     <>
       <Router>
         <Navbar />
-        
+
         <div id="Content">
           <Switch>
             <Route exact path="/">
@@ -27,7 +27,7 @@ export function AppRouter() {
               <Ejercicio />
             </Route>
             <Route path="/alimentos">
-              <Alimento  />
+              <Alimento />
             </Route>
             <Route exact path="/blog">
               <Blog />
@@ -44,14 +44,13 @@ export function AppRouter() {
             <Route path="/Contact">
               <Contact />
             </Route>
-            
+
             <Route path={`/Blog/:id`}>
               <Post type="Post" />
             </Route>
             <Route path={`/Podcast/:id`}>
               <Post type="Podcast" />
             </Route>
-
           </Switch>
         </div>
         <Footer />

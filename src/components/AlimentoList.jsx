@@ -17,6 +17,8 @@ function AlimentoItem({ ejercicio }) {
   );
 }
 
+// {BlogList && <FetchList list={BlogList} />}
+
 export function AlimentoList({ alimentos }) {
   return (
     <ul id="ejerciciolist">

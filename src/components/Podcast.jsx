@@ -7,9 +7,5 @@ export function Podcast() {
     "https://joseda-backend.herokuapp.com/api/podcasts/"
   );
 
-  return (
-    <>
-{BlogList && <FetchList list={BlogList} />}
-    </>
-  );
+  return <>{BlogList && <FetchList list={BlogList} />}</>;
 }

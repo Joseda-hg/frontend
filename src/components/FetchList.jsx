@@ -1,12 +1,9 @@
-import React from 'react'
-import {Card} from "./Card"
- 
-function FetchItem() {
-  return (
-      <Card />
-  )
-}
+import React from "react";
+import { Card } from "./Card";
 
+function FetchItem() {
+  return <Card />;
+}
 
 export function FetchList({ list }) {
   return (

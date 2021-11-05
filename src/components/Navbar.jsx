@@ -54,45 +54,46 @@ export function Navbar() {
                   Document Generator
                 </a>
                 <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="/"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Cursos y Libros
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="/">
-                  Alfabetizacion Digital
-                </a>
-                <a className="dropdown-item" href="/">
-                  Ingles
-                </a>
-                <a className="dropdown-item" href="/">
-                  Metodo de estudios
-                </a>
-                <div className="dropdown-divider"></div>
-                <a className="dropdown-item" href="/">
-                  Programacion en Python
-                </a>
-                <a className="dropdown-item" href="/">
-                  Programacion Web
-                </a>
-                <a className="dropdown-item" href="/">
-                  Programacion en Rust
-                </a>
-                <a className="dropdown-item" href="/">
-                  Programacion en C#
-                </a>
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="/"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Cursos y Libros
+                  </a>
+                  <div
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <a className="dropdown-item" href="/">
+                      Alfabetizacion Digital
+                    </a>
+                    <a className="dropdown-item" href="/">
+                      Ingles
+                    </a>
+                    <a className="dropdown-item" href="/">
+                      Metodo de estudios
+                    </a>
+                    <div className="dropdown-divider"></div>
+                    <a className="dropdown-item" href="/">
+                      Programacion en Python
+                    </a>
+                    <a className="dropdown-item" href="/">
+                      Programacion Web
+                    </a>
+                    <a className="dropdown-item" href="/">
+                      Programacion en Rust
+                    </a>
+                    <a className="dropdown-item" href="/">
+                      Programacion en C#
+                    </a>
+                  </div>
+                </li>
               </div>
-            </li>
-
-              </div>
-              
             </li>
 
             <li className="nav-item">
@@ -115,7 +116,7 @@ export function Navbar() {
 
             <li className="nav-item">
               <Link className="nav-link" to="/Newsletter">
-               Newsletter
+                Newsletter
               </Link>
             </li>
 
