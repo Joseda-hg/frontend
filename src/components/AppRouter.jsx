@@ -45,10 +45,10 @@ export function AppRouter() {
               <Contact />
             </Route>
 
-            <Route path={`/Blog/:id`}>
+            <Route path={`/blog/:id`}>
               <Post type="Post" />
             </Route>
-            <Route path={`/Podcast/:id`}>
+            <Route path={`/podcast/:id`}>
               <Post type="Podcast" />
             </Route>
           </Switch>
