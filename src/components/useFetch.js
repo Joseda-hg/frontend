@@ -4,7 +4,7 @@ const useFetch = (url) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(url,{mode : "no-cors"})
+    fetch(url)
       .then(function (response) {
         return response.json();
       })
