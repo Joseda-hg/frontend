@@ -22,7 +22,7 @@ export function Navbar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto nav-fill w-100">
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown disabled">
               <a
                 className="nav-link dropdown-toggle"
                 href="/"
@@ -38,10 +38,10 @@ export function Navbar() {
                 <a className="dropdown-item disabled" href="/">
                   StudyApp
                 </a>
-                <Link className="dropdown-item" to="/ejercicios">
+                <Link className="dropdown-item disabled" to="/ejercicios">
                   FitApp
                 </Link>
-                <Link className="dropdown-item" to="/alimentos">
+                <Link className="dropdown-item disabled" to="/alimentos">
                   HealthApp
                 </Link>
                 <a className="dropdown-item disabled" href="/">
@@ -96,25 +96,25 @@ export function Navbar() {
               </div>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item disabled">
               <Link className="nav-link" to="/Blog">
                 Blog
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item disabled">
               <Link className="nav-link" to="/Podcast">
                 Podcast
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item disabled">
               <Link className="nav-link" to="/About">
                 Sobre Nosotros
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item disabled">
               <Link className="nav-link" to="/Newsletter">
                 Newsletter
               </Link>
