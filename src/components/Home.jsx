@@ -36,7 +36,7 @@ export function Home() {
           </div>
           <div class="col-sm">
             <div className="row">
-              <div
+              {/* <div
                 id="carouselExampleIndicators"
                 class="carousel slide"
                 data-bs-ride="carousel"
@@ -111,6 +111,8 @@ export function Home() {
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+            */}
+            <iframe width="1264" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
