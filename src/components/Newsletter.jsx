@@ -1,4 +1,5 @@
 import React from "react";
+import { Editor } from "./Editor";
 
 export function Newsletter() {
   return (
@@ -42,6 +43,9 @@ export function Newsletter() {
           Submit
         </button>
       </form>
+      <Editor />
+
+
     </>
   );
 }

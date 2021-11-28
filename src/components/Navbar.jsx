@@ -108,9 +108,9 @@ export function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item disabled">
-              <Link className="nav-link disabled" to="/About">
-                Sobre Nosotros
+            <li className="nav-item">
+              <Link className="nav-link" to="/About">
+                Sobre mi
               </Link>
             </li>
 

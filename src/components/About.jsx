@@ -1,5 +1,4 @@
 import React from "react";
-import { Editor } from "./Editor";
 
 export function About() {
   return (
@@ -42,7 +41,6 @@ export function About() {
         completo
       </p>
 
-      <Editor />
     </div>
   );
 }
