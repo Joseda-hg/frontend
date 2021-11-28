@@ -97,31 +97,31 @@ export function Navbar() {
             </li>
 
             <li className="nav-item disabled">
-              <Link className="nav-link" to="/Blog">
+              <Link className="nav-link disabled" to="/Blog">
                 Blog
               </Link>
             </li>
 
             <li className="nav-item disabled">
-              <Link className="nav-link" to="/Podcast">
+              <Link className="nav-link disabled" to="/Podcast">
                 Podcast
               </Link>
             </li>
 
             <li className="nav-item disabled">
-              <Link className="nav-link" to="/About">
+              <Link className="nav-link disabled" to="/About">
                 Sobre Nosotros
               </Link>
             </li>
 
             <li className="nav-item disabled">
-              <Link className="nav-link" to="/Newsletter">
+              <Link className="nav-link disabled" to="/Newsletter">
                 Newsletter
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/Contact">
+              <Link className="nav-link disabled" to="/Contact">
                 Contactanos
               </Link>
             </li>
