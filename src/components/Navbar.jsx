@@ -122,7 +122,7 @@ export function Navbar() {
 
             <li className="nav-item">
               <Link className="nav-link disabled" to="/Contact">
-                Contactanos
+                Contactame
               </Link>
             </li>
           </ul>
