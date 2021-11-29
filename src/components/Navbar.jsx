@@ -114,11 +114,11 @@ export function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item disabled">
+            {/* <li className="nav-item disabled">
               <Link className="nav-link disabled" to="/Newsletter">
                 Newsletter
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link className="nav-link disabled" to="/Contact">
