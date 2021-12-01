@@ -121,7 +121,7 @@ export function Navbar() {
             </li> */}
 
             <li className="nav-item">
-              <Link className="nav-link disabled" to="/Contact">
+              <Link className="nav-link" to="/Contact">
                 Contactame
               </Link>
             </li>
