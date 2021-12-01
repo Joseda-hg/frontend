@@ -1,4 +1,5 @@
 import React from "react";
+import ContactHandler from "./contactHandler"
 // import useState from "react"
 
 export function Contact() {
@@ -50,11 +51,13 @@ export function Contact() {
             Check me out
           </label>
         </div>
-
+{/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
         <input
-          type="submit"
+          type="button"
           class="btn btn-primary btn-block"
           id="formButton"
+          onClick={ContactHandler}
+          value={"Enviar"}
         />
       </form>
     </>
