@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {
     "@mdx-js/mdx": "1.6.22",
+    "@popperjs/core": "2.10.2",
+    "@sendgrid/mail": "^7.6.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "@popperjs/core": "2.10.2",
     "bootstrap": "^5.0.2",
     "easymde": "^2.15.0",
     "react": "^17.0.2",

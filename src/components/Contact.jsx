@@ -18,7 +18,7 @@ export function Contact() {
           <input
             type="email"
             class="form-control"
-            id="exampleInputEmail1"
+            id="direccionMail"
             aria-describedby="emailHelp"
             placeholder="Enter email"
           ></input>
@@ -28,7 +28,7 @@ export function Contact() {
         <input
           type="email"
           className="form-control"
-          id="exampleInputEmail1"
+          id="nombre"
           aria-describedby="emailHelp"
           placeholder="Enter your name"
         ></input>
@@ -36,7 +36,7 @@ export function Contact() {
         <input
           type="text"
           className="form-control"
-          id="exampleInputEmail1"
+          id="mensaje"
           aria-describedby="emailHelp"
           placeholder="Enter your message"
         ></input>
