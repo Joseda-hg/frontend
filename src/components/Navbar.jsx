@@ -53,6 +53,27 @@ export function Navbar() {
                 <a className="dropdown-item disabled" href="/">
                   Document Generator
                 </a>
+                <a className="dropdown-item disabled" href="/">
+                  WebOS
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  Rustic Game House
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  Free Scraper Bot
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  File Sorter
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  Control Center
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  FrontEnd for Project Gutenberg
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  Auto Content Generator
+                </a>
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
