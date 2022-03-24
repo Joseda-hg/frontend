@@ -11,6 +11,7 @@ export function Contact() {
     <>
       <div>
         <h1 id="PageTitle">Contact</h1>
+        <h1> Este formulario de contacto de momento no es funcional, tener cuidado; mientras es finalizado, te invito a contactarme a traves de cualquiera de mis redes sociales</h1>
       </div>
       <form onSubmit={handleContactSubmit}>
         <div className="form-group">
