@@ -92,6 +92,8 @@ footer {
   color: rgb(90, 88, 88);
   justify-content: center;
   text-align: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
 }
 
 #formButton{
