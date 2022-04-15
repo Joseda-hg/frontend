@@ -5,12 +5,12 @@ import { Ejercicio } from "./Ejercicio";
 import { Home } from "./Home";
 import { Footer } from "./Footer";
 import { Blog } from "./Blog";
-import { Podcast } from "./Podcast";
+// import { Podcast } from "./Podcast";
 import { About } from "./About";
 import { Contact } from "./Contact";
 import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
-import { Alimento } from "./Alimento";
+// import { Alimento } from "./Alimento";
 
 export function AppRouter() {
   return (
@@ -26,15 +26,15 @@ export function AppRouter() {
             <Route path="/ejercicios">
               <Ejercicio />
             </Route>
-            <Route path="/alimentos">
+            {/* <Route path="/alimentos">
               <Alimento />
-            </Route>
+            </Route> */}
             <Route exact path="/blog">
               <Blog />
             </Route>
-            <Route exact path="/Podcast">
+            {/* <Route exact path="/Podcast">
               <Podcast />
-            </Route>
+            </Route> */}
             <Route exact path="/About">
               <About />
             </Route>
@@ -48,9 +48,9 @@ export function AppRouter() {
             <Route path={`/blog/:id`}>
               <Post type="Post" />
             </Route>
-            <Route path={`/podcast/:id`}>
+            {/* <Route path={`/podcast/:id`}>
               <Post type="Podcast" />
-            </Route>
+            </Route> */}
           </Switch>
         </div>
         <Footer />
