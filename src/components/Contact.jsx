@@ -1,5 +1,5 @@
 import React from "react";
-import ContactHandler from "./contactHandler"
+import ContactHandler from "./contactHandler";
 // import useState from "react"
 
 export function Contact() {
@@ -11,13 +11,16 @@ export function Contact() {
     <>
       <div>
         <h1 id="PageTitle">Contact</h1>
-        <h1> Este formulario de contacto de momento no es funcional, tener cuidado; mientras es finalizado, te invito a contactarme a traves de cualquiera de mis redes sociales</h1>
+        <h1>
+          Este formulario de contacto de momento no es funcional, tener cuidado;
+          mientras es finalizado, te invito a contactarme a traves de cualquiera
+          de mis redes sociales
+        </h1>
       </div>
       <form onSubmit={handleContactSubmit}>
         <div className="form-group">
           <label for="exampleInputEmail1">Email address</label>
-          <input
-            type="email"
+          <input type="email"
             class="form-control"
             id="direccionMail"
             aria-describedby="emailHelp"
@@ -52,7 +55,7 @@ export function Contact() {
             Check me out
           </label>
         </div>
-{/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
+        {/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
         <input
           type="button"
           class="btn btn-primary btn-block"

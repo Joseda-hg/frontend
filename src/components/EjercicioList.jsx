@@ -27,9 +27,6 @@ export function EjercicioList({ ejercicios }) {
   );
 }
 
-
-
-
 // import React from "react";
 
 // function AlimentoItem({ ejercicio }) {
