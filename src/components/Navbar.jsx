@@ -74,8 +74,8 @@ export function Navbar() {
                 <a className="dropdown-item disabled" href="/">
                   Auto Content Generator
                 </a>
-                <li className="nav-item dropdown">
-                  <a
+                {/* <li className="nav-item dropdown">
+                   <a
                     className="nav-link dropdown-toggle"
                     href="/"
                     id="navbarDropdown"
@@ -111,9 +111,9 @@ export function Navbar() {
                     </a>
                     <a className="dropdown-item" href="/">
                       Programacion en C#
-                    </a>
-                  </div>
-                </li>
+                    </a> 
+                  </div> 
+                </li>*/}
               </div>
             </li>
 

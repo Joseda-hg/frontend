@@ -19,7 +19,7 @@ export function Contact() {
       </div>
       <form onSubmit={handleContactSubmit}>
         <div className="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label htmlFor="exampleInputEmail1">Email address</label>
           <input type="email"
             className="form-control"
             id="direccionMail"
@@ -28,7 +28,7 @@ export function Contact() {
           ></input>
         </div>
 
-        <label for="exampleInputEmail1">Name</label>
+        <label htmlFor="exampleInputEmail1">Name</label>
         <input
           type="email"
           className="form-control"
@@ -36,7 +36,7 @@ export function Contact() {
           aria-describedby="emailHelp"
           placeholder="Enter your name"
         ></input>
-        <label for="exampleInputEmail1">Message</label>
+        <label htmlFor="exampleInputEmail1">Message</label>
         <input
           type="text"
           className="form-control"
@@ -51,7 +51,7 @@ export function Contact() {
             className="form-check-input"
             id="exampleCheck1"
           ></input>
-          <label className="form-check-label" for="exampleCheck1">
+          <label className="form-check-label" htmlFor="exampleCheck1">
             Check me out
           </label>
         </div>
