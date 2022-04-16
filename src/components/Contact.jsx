@@ -21,7 +21,7 @@ export function Contact() {
         <div className="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email"
-            class="form-control"
+            className="form-control"
             id="direccionMail"
             aria-describedby="emailHelp"
             placeholder="Enter email"
@@ -45,20 +45,20 @@ export function Contact() {
           placeholder="Enter your message"
         ></input>
 
-        <div class="form-check">
+        <div className="form-check">
           <input
             type="checkbox"
-            class="form-check-input"
+            className="form-check-input"
             id="exampleCheck1"
           ></input>
-          <label class="form-check-label" for="exampleCheck1">
+          <label className="form-check-label" for="exampleCheck1">
             Check me out
           </label>
         </div>
         {/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
         <input
           type="button"
-          class="btn btn-primary btn-block"
+          className="btn btn-primary btn-block"
           id="formButton"
           onClick={ContactHandler}
           value={"Enviar"}
