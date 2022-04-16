@@ -4,14 +4,14 @@ import ContactHandler from "./contactHandler";
 
 export function Contact() {
   const handleContactSubmit = (event) => {
-    event.PreventDefault();
+    // event.PreventDefault();
     console.log("Ran");
   };
   return (
     <>
       <div>
         <h1 id="PageTitle">Contact</h1>
-        <h1>
+        <h1>  
           Este formulario de contacto de momento no es funcional, tener cuidado;
           mientras es finalizado, te invito a contactarme a traves de cualquiera
           de mis redes sociales
@@ -21,29 +21,29 @@ export function Contact() {
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>
           <input type="email"
-            className="form-control"
+            className="form-control"  
             id="direccionMail"
             aria-describedby="emailHelp"
-            placeholder="Enter email"
+            placeholder="Enter email" required={true}
           ></input>
         </div>
 
         <label htmlFor="exampleInputEmail1">Name</label>
         <input
-          type="email"
+          type="text"
           className="form-control"
           id="nombre"
           aria-describedby="emailHelp"
-          placeholder="Enter your name"
+          placeholder="Enter your name" required={true}
         ></input>
         <label htmlFor="exampleInputEmail1">Message</label>
-        <input
+        <textarea
           type="text"
           className="form-control"
           id="mensaje"
           aria-describedby="emailHelp"
-          placeholder="Enter your message"
-        ></input>
+          placeholder="Enter your message" required={true}
+        ></textarea>
 
         <div className="form-check">
           <input
@@ -57,7 +57,7 @@ export function Contact() {
         </div>
         {/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
         <input
-          type="button"
+          type="submit"
           className="btn btn-primary btn-block"
           id="formButton"
           onClick={ContactHandler}
