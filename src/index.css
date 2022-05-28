@@ -26,7 +26,9 @@ footer {
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.8;
-  color: white
+  color: white;
+  text-decoration: none;
+
 }
 
 /* Set a specific color for each brand */

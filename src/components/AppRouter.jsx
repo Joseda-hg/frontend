@@ -11,7 +11,7 @@ import { Contact } from "./Contact";
 import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
 // import { Alimento } from "./Alimento";
-
+import { Terminal } from "./Terminal";
 export function AppRouter() {
   return (
     <>
@@ -43,6 +43,9 @@ export function AppRouter() {
             </Route>
             <Route path="/Contact">
               <Contact />
+            </Route>
+            <Route path="/Terminal">
+              <Terminal/>
             </Route>
 
             <Route path={`/blog/:id`}>
