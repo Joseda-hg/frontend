@@ -128,6 +128,11 @@ export function Navbar() {
                 Podcast
               </Link>
             </li>
+             <li className="nav-item disabled">
+              <Link className="nav-link disabled" to="/Podcast">
+                Curriculum
+              </Link>
+            </li>
 
             <li className="nav-item">
               <Link className="nav-link" to="/About">
