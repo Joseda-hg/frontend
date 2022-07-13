@@ -47,7 +47,9 @@ function Comando(e) {
                             about
                             projects
                             help`
-            console.log(mensajeAyuda)
+            // console.log(mensajeAyuda)
+            terminalLog.append(mensajeAyuda, br)
+
             break;
         case "games":
             break;
