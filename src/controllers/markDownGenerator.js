@@ -60,3 +60,7 @@ let html = marked.parse(markdown)
 
 console.log(html)
 
+// The flow in theory would be
+// 1. Folder with markdown files
+// Each file generates a html output that would inserted into a template
+// Also each generates a separate entry dynamically
