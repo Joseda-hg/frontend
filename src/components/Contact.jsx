@@ -1,12 +1,8 @@
 import React from "react";
-import ContactHandler from "./contactHandler";
+import ContactHandler from "../controllers/contactHandler";
 // import useState from "react"
 
 export function Contact() {
-  const handleContactSubmit = (event) => {
-    // event.PreventDefault();
-    console.log("Ran");
-  };
   return (
     <>
       <div>
@@ -17,7 +13,7 @@ export function Contact() {
           de mis redes sociales
         </h1>
       </div>
-      <form onSubmit={handleContactSubmit}>
+      <form onSubmit={ContactHandler}>
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>
           <input type="email"
