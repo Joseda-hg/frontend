@@ -1,5 +1,5 @@
-import { marked } from 'marked' 
-
+// import { marked } from 'marked' 
+const { marked } = require('marked')
 let markdown = `# Sola et erat victa minimo aures oculis
 
 ## Esse imum et
