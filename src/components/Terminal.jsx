@@ -54,7 +54,8 @@ function Comando(e) {
         case "games":
             break;
         default:
-            console.log("Comando no reconocido, escribe help para recibir una lista de los comandos disponibles")
+            // console.log("Comando no reconocido, escribe help para recibir una lista de los comandos disponibles")
+            terminalLog.append("Comando no reconocido, escribe help para recibir una lista de los comandos disponibles", br)
             break;
     }
 }

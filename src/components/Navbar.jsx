@@ -123,7 +123,7 @@ export function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item disabled">
+            {/* <li className="nav-item disabled">
               <Link className="nav-link disabled" to="/Podcast">
                 Podcast
               </Link>
@@ -132,7 +132,7 @@ export function Navbar() {
               <Link className="nav-link disabled" to="/Podcast">
                 Curriculum
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link className="nav-link" to="/About">
