@@ -13,12 +13,15 @@ files.forEach(element => {
     let htmlver = marked.parse(fileContent)
 
     console.log(htmlver)
-    fs.writeFile(`../posts/${element}`, fileContent, function (err) {
+    fs.writeFile(`../posts/${element}.jsx`, htmlver, function (err) {
         if (err) throw err;
         console.log('Saved!');
       });
       
 });
+
+// I think the best posibility will be turning everythin into a  jsx and then import them into the POST component
+
 
 // The flow in theory would be
 // 1. Folder with markdown files
