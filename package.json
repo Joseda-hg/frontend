@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mdx-js/mdx": "^2.1.2",
     "@popperjs/core": "2.10.2",
     "@sendgrid/mail": "^7.7.0",
     "@testing-library/jest-dom": "^5.14.1",
