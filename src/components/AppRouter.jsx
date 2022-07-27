@@ -12,6 +12,8 @@ import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
 // import { Alimento } from "./Alimento";
 import { Terminal } from "./Terminal";
+import { Breakout } from "./Breakout";
+
 export function AppRouter() {
   return (
     <>
@@ -22,6 +24,9 @@ export function AppRouter() {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route exact path="/breakout">
+              <Breakout />
             </Route>
             <Route path="/ejercicios">
               <Ejercicio />
