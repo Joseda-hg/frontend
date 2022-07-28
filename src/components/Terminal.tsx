@@ -1,15 +1,24 @@
-import React from "react";
+import * as React from "react";
 
-function Comando(e) {
+function getComando(e: { preventDefault: () => void; }) {
+    var comando = ""
     e.preventDefault()
+    let terminal = document.getElementById("terminal") as HTMLInputElement
+    if (terminal === null){
+        alert("Something's gone wrong")
+    }
+    else{
+        console.log(terminal.value)
+        var comando = terminal.value
+    }
 
-    let terminal = document.getElementById("terminal")
-    console.log(terminal.value)
-    let comando = terminal.value
-    let terminalLog = document.getElementById("terminalLog")
-    let br = document.createElement("br")
-    terminalLog.append(terminal.value, br)
-    terminal.value = ""
+
+    let terminalLog = document.getElementById("terminalLog") as HTMLInputElement;
+    let br = document.createElement("br");
+    terminalLog.append(terminal.value, br);
+    terminal.value = "";
+
+
 
     switch (comando) {
         case "test":
@@ -65,8 +74,8 @@ export function Terminal() {
     return (
         <div id="terminalContainer">
             <p id="terminalLog">TERMINAL<br></br></p>
-            <form onSubmit={Comando} id="terminale">
-                <input id="terminal" placeholder="INSERTAR COMANDO AQUI" cols="30" rows="10" type={"textarea"}></input>
+            <form onSubmit={getComando} id="terminale">
+                <input id="terminal" placeholder="INSERTAR COMANDO AQUI" type={"textarea"}></input>
             </form>
         </div>
     )

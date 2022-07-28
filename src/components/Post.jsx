@@ -4,14 +4,14 @@ import React from "react";
 
 // In theory, this should be enough to render a mdx database input into react for the post
 // check once I have the proper input in the DB
-let htmlPost = require("../posts/LoremIpsum.md")
+// let htmlPost = require("../posts/LoremIpsum.md")
 export function Post({ type }) {
   // let { id } = useParams();
   
   // const { data: post } = useFetch(`https://joseda-backend.herokuapp.com/api/blogs/${id}`);
 
     return (<>
-    <iframe src={htmlPost}> </iframe>
+    {/* <iframe src={htmlPost}> </iframe> */}
     </>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 export function About() {
-  return (
-    <div>
+  return (<>
       <h1 id="PageTitle">Sobre Mi</h1>
       <p>
         Una presentacion bastante expedita de mi mismo; Soy un estudiante de
@@ -39,7 +38,6 @@ export function About() {
         y espero eventualmente poder dedicarme a la informatica a tiempo
         completo
       </p>
-
-    </div>
+  </>
   );
 }
