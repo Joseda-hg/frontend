@@ -34,7 +34,7 @@ export function Contact() {
         ></input>
         <label htmlFor="exampleInputEmail1">Message</label>
         <textarea
-          type="text"
+          // type="text"
           className="form-control"
           id="mensaje"
           aria-describedby="emailHelp"

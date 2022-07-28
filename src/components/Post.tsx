@@ -16,7 +16,6 @@ export function Post({ type }) {
   );
 }
 
-
 // import React from "react";
 // import { FetchList } from "./FetchList";
 // import useFetch from "./useFetch";

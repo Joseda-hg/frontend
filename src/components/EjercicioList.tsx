@@ -1,9 +1,9 @@
 import React from "react";
 
-function EjercicioItem({ ejercicio }) {
+function EjercicioItem({/* ejercicio }*/}) {
   return (
     <div className="card">
-      <div className="card-header">{ejercicio.nombre}</div>
+      {/* <div className="card-header">{ejercicio.nombre}</div>
       <div className="card-body">
         <h3 className="card-title"> ID del Ejercicio: {ejercicio.id} </h3>
         <p className="card-text">
@@ -12,17 +12,17 @@ function EjercicioItem({ ejercicio }) {
         <a href="/" className="btn btn-primary">
           Comprobar Ejercicio
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
 
-export function EjercicioList({ ejercicios }) {
+export function EjercicioList({/* ejercicios }*/}) {
   return (
     <ul id="ejerciciolist">
-      {ejercicios.map((ejercicio) => (
+      {/* {ejercicios.map((ejercicio) => (
         <EjercicioItem ejercicio={ejercicio} />
-      ))}
+      ))} */}
     </ul>
   );
 }

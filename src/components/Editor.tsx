@@ -7,7 +7,7 @@ export class Editor extends React.Component {
     return (
       <>
         <textarea
-          ref={(ref) => (this.textareaRef = ref)}
+          // ref={(ref) => (this.textareaRef = ref)}
           defaultValue="With Ref"
         />
       </>
@@ -15,7 +15,7 @@ export class Editor extends React.Component {
   }
   componentDidMount() {
     new EasyMDE({
-      element: this.textareaRef,
+      // element: this.textareaRef,
       autoDownloadFontAwesome: false,
       toolbar: [
         {
