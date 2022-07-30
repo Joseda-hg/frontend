@@ -1,7 +1,7 @@
 import * as React from "react";
 
 function getComando(e: { preventDefault: () => void; }) {
-    var comando = ""
+    // var comando = ""
     e.preventDefault()
     let terminal = document.getElementById("terminal") as HTMLInputElement
     if (terminal === null){
@@ -11,15 +11,16 @@ function getComando(e: { preventDefault: () => void; }) {
         console.log(terminal.value)
         var comando = terminal.value
     }
-
-
+    
+    
     let terminalLog = document.getElementById("terminalLog") as HTMLInputElement;
     let br = document.createElement("br");
     terminalLog.append(terminal.value, br);
     terminal.value = "";
-
-
-
+    
+    
+    
+// @ts-ignore
     switch (comando) {
         case "test":
             // console.log("Entro en test")
