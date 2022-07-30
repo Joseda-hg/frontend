@@ -16,7 +16,7 @@
     "marked": "^4.0.18",
     "react": "^18.0.2",
     "react-dom": "^18.2.0",
-    "@types/react-router-dom": "^5.3.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^9.1.2",
     "typescript": "^4.7.4",
@@ -47,7 +47,8 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^17.0.48"
+    "@types/react": "^17.0.48",
+    "react-router-dom": "^5.2.0"
   },
   "browser": {
     "fs": false,
