@@ -5,6 +5,9 @@ import React from "react";
 // In theory, this should be enough to render a mdx database input into react for the post
 // check once I have the proper input in the DB
 // let htmlPost = require("../posts/LoremIpsum.md")
+
+
+// @ts-ignore 
 export function Post({ type }) {
   // let { id } = useParams();
   

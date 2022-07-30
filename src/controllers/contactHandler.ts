@@ -1,3 +1,4 @@
+// @ts-ignore
 export default function  ContactHandler(e){
     e.preventDefault()
     console.log("Click en Enviar")

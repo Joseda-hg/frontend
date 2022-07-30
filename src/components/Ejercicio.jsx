@@ -1,17 +1,17 @@
 import React from "react";
 import { EjercicioList } from "./EjercicioList";
 import useFetch from "./useFetch";
-
 export function Ejercicio() {
   const { data: ejercicios } = useFetch(
     "https://joseda-backend.herokuapp.com/api/ejercicios/"
-  );
-
-  const handleEjercicioAdd = () => {};
-
-  const handleEjercicioRand = () => {};
-  return (
-    <div>
+    );
+    
+    const handleEjercicioAdd = () => {};
+    
+    const handleEjercicioRand = () => {};
+    return (
+      <div>
+        {/* // @ts-ignore */}
       {ejercicios && <EjercicioList ejercicios={ejercicios} />}
       <input
         className="form-control"

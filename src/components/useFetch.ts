@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// @ts-ignore
 const useFetch = (url) => {
   const [data, setData] = useState(null);
 
