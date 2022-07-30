@@ -49,8 +49,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.48",
-    "@types/react-router-dom": "^5.3.3",
-    "react-scripts": "^5.0.1"
+    "@types/react-router-dom": "^5.3.3"
   },
   "browser": {
     "fs": false,
