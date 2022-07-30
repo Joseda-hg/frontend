@@ -11,7 +11,6 @@ export function Ejercicio() {
     const handleEjercicioRand = () => {};
     return (
       <div>
-        {/* // @ts-ignore */}
       {ejercicios && <EjercicioList ejercicios={ejercicios} />}
       <input
         className="form-control"

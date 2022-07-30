@@ -5,12 +5,10 @@ import { Ejercicio } from "./Ejercicio";
 import { Home } from "./Home";
 import { Footer } from "./Footer";
 import { Blog } from "./Blog";
-// import { Podcast } from "./Podcast";
 import { About } from "./About";
 import { Contact } from "./Contact";
 import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
-// import { Alimento } from "./Alimento";
 import { Terminal } from "./Terminal";
 import { Breakout } from "./Breakout";
 
