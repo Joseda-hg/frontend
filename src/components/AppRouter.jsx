@@ -19,7 +19,6 @@ export function AppRouter() {
     <>
       <Router>
         <Navbar />
-
         <div id="Content">
           <Switch>
             <Route exact path="/">
