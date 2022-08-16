@@ -11,6 +11,7 @@ import { Post } from "./Post";
 import { Newsletter } from "./Newsletter";
 import { Terminal } from "./Terminal";
 import { Breakout } from "./Breakout";
+import { Clicker } from "./Clicker";
 
 export function AppRouter() {
   return (
@@ -24,6 +25,9 @@ export function AppRouter() {
             </Route>
             <Route exact path="/breakout">
               <Breakout />
+            </Route>
+            <Route exact path="/clicker">
+              <Clicker />
             </Route>
             <Route path="/ejercicios">
               <Ejercicio />
