@@ -48,9 +48,9 @@ export function Navbar() {
                 <a className="dropdown-item disabled" href="/">
                   SalesApp
                 </a>
-                <a className="dropdown-item disabled" href="/">
+                <Link className="dropdown-item" to="/Clicker">
                   Clicker Game
-                </a>
+                </Link>
                 <a className="dropdown-item disabled" href="/">
                   Document Generator
                 </a>

@@ -123,3 +123,16 @@ footer {
   color: aqua;
   opacity: 1; /* Firefox */
 }
+
+.Generator{
+  border-width : 10px;
+  border-color: #3B5998;
+  border-style: solid;
+  /* border-radius: 100%; */
+}
+
+.GeneratorIcon{}
+.GeneratorName{}
+.GeneratorDescripcion{}
+.GeneratorCantidad{}
+

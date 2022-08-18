@@ -20,11 +20,11 @@ export function AppRouter() {
         <Navbar />
         <div id="Content">
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
             <Route exact path="/breakout">
               <Breakout />
+            </Route>
+            <Route exact path="/">
+              <Home />
             </Route>
             <Route exact path="/clicker">
               <Clicker />
