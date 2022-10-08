@@ -22,7 +22,8 @@ let genList =  [madera, piedra, hierro, oro, diamante]
 
 
 
-let whateverAmount = 0
+let whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
+// Inicialmente era igual a cero
 
 
 function generate(){
@@ -31,7 +32,9 @@ function generate(){
   let counter = document.getElementById("Counter")
   counter.innerText= `Whatever Counter ${whateverAmount}`
   // localStorage.setItem("lastname", "Smith");
-  console.log(localStorage.getItem("lastname"));
+  // console.log(localStorage.getItem("lastname"));
+  localStorage.setItem("whateveramount", whateverAmount);
+  whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
 }
 
 export function Clicker() {

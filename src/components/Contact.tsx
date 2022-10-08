@@ -7,16 +7,11 @@ export function Contact() {
     <>
       <div>
         <h1 id="PageTitle">Contact</h1>
-        <h1>  
-          Este formulario de contacto de momento no es funcional, tener cuidado;
-          mientras es finalizado, te invito a contactarme a traves de cualquiera
-          de mis redes sociales
-        </h1>
       </div>
-      <form onSubmit={ContactHandler}>
+      <form action="https://formbold.com/s/3Gjv9" method="POST">
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Email address</label>
-          <input type="email"
+          <input type="email" name="fromEmail"
             className="form-control"  
             id="direccionMail"
             aria-describedby="emailHelp"
@@ -31,14 +26,15 @@ export function Contact() {
           id="nombre"
           aria-describedby="emailHelp"
           placeholder="Enter your name" required={true}
+          name="nombre"
         ></input>
         <label htmlFor="exampleInputEmail1">Message</label>
         <textarea
-          // type="text"
           className="form-control"
           id="mensaje"
           aria-describedby="emailHelp"
           placeholder="Enter your message" required={true}
+          name="Texto"
         ></textarea>
 
         <div className="form-check">
@@ -46,19 +42,20 @@ export function Contact() {
             type="checkbox"
             className="form-check-input"
             id="exampleCheck1"
+            name="checkbox"
           ></input>
           <label className="form-check-label" htmlFor="exampleCheck1">
             Check me out
           </label>
         </div>
         {/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
-        <input
+        <button
           type="submit"
           className="btn btn-primary btn-block"
           id="formButton"
-          onClick={ContactHandler}
-          value={"Enviar"}
-        />
+
+          // onClick={ContactHandler}
+          value={"Enviar"}> Enviar formulario</button>
       </form>
     </>
   );

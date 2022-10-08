@@ -42,6 +42,9 @@ export function Navbar() {
                 <Link className="dropdown-item disabled" to="/ejercicios">
                   FitApp
                 </Link>
+                <Link className="dropdown-item" to="/terminal">
+                  Terminal
+                </Link>
                 <Link className="dropdown-item disabled" to="/alimentos">
                   HealthApp
                 </Link>
