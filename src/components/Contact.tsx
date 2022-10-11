@@ -11,7 +11,7 @@ export function Contact() {
       <form action="https://formbold.com/s/3Gjv9" method="POST">
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Direccion de correo electronico</label>
-          <input type="email" name="Sender Email"
+          <input type="email" name="Correo electronico"
             className="form-control"  
             id="direccionMail"
             aria-describedby="emailHelp"
@@ -26,7 +26,7 @@ export function Contact() {
           id="Nombre"
           aria-describedby="emailHelp"
           placeholder="Nombre" required={true}
-          name="nombre"
+          name="Nombre"
         ></input>
         <label htmlFor="exampleInputEmail1">Mensaje</label>
         <textarea
