@@ -39,9 +39,6 @@ export function Navbar() {
                 <a className="dropdown-item disabled" href="/">
                   StudyApp
                 </a>
-                <Link className="dropdown-item disabled" to="/ejercicios">
-                  FitApp
-                </Link>
                 <Link className="dropdown-item" to="/terminal">
                   Terminal
                 </Link>
@@ -54,6 +51,9 @@ export function Navbar() {
                 <Link className="dropdown-item" to="/Clicker">
                   Clicker Game
                 </Link>
+                <Link className="dropdown-item disabled" to="/Blog">
+                  Blog
+                </Link>
                 <a className="dropdown-item disabled" href="/">
                   Document Generator
                 </a>
@@ -62,9 +62,6 @@ export function Navbar() {
                 </a>
                 <a className="dropdown-item disabled" href="/">
                   Rustic Game House
-                </a>
-                <a className="dropdown-item disabled" href="/">
-                  Free Scraper Bot
                 </a>
                 <a className="dropdown-item disabled" href="/">
                   File Sorter
@@ -120,36 +117,11 @@ export function Navbar() {
                 </li>*/}
               </div>
             </li>
-
-            <li className="nav-item disabled">
-              <Link className="nav-link disabled" to="/Blog">
-                Blog
-              </Link>
-            </li>
-
-            {/* <li className="nav-item disabled">
-              <Link className="nav-link disabled" to="/Podcast">
-                Podcast
-              </Link>
-            </li>
-             <li className="nav-item disabled">
-              <Link className="nav-link disabled" to="/Podcast">
-                Curriculum
-              </Link>
-            </li> */}
-
             <li className="nav-item">
               <Link className="nav-link" to="/About">
                 Sobre mi
               </Link>
             </li>
-
-            {/* <li className="nav-item disabled">
-              <Link className="nav-link disabled" to="/Newsletter">
-                Newsletter
-              </Link>
-            </li> */}
-
             <li className="nav-item">
               <Link className="nav-link" to="/Contact">
                 Contactame
