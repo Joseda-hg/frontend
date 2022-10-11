@@ -32,15 +32,9 @@ export function AppRouter() {
             <Route path="/ejercicios">
               <Ejercicio />
             </Route>
-            {/* <Route path="/alimentos">
-              <Alimento />
-            </Route> */}
             <Route exact path="/blog">
               <Blog />
             </Route>
-            {/* <Route exact path="/Podcast">
-              <Podcast />
-            </Route> */}
             <Route exact path="/About">
               <About />
             </Route>
@@ -53,13 +47,9 @@ export function AppRouter() {
             <Route path="/Terminal">
               <Terminal/>
             </Route>
-
             <Route path={`/blog/:id`}>
               <Post type="Post" />
             </Route>
-            {/* <Route path={`/podcast/:id`}>
-              <Post type="Podcast" />
-            </Route> */}
           </Switch>
         </div>
         <Footer />
