@@ -70,51 +70,11 @@ export function Navbar() {
                   Control Center
                 </a>
                 <a className="dropdown-item disabled" href="/">
-                  FrontEnd for Project Gutenberg
-                </a>
-                <a className="dropdown-item disabled" href="/">
                   Auto Content Generator
                 </a>
-                {/* <li className="nav-item dropdown">
-                   <a
-                    className="nav-link dropdown-toggle"
-                    href="/"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Cursos y Libros
-                  </a>
-                  <div
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <a className="dropdown-item" href="/">
-                      Alfabetizacion Digital
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Ingles
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Metodo de estudios
-                    </a>
-                    <div className="dropdown-divider"></div>
-                    <a className="dropdown-item" href="/">
-                      Programacion en Python
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Programacion Web
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Programacion en Rust
-                    </a>
-                    <a className="dropdown-item" href="/">
-                      Programacion en C#
-                    </a> 
-                  </div> 
-                </li>*/}
+                <Link className="dropdown-item" to="/Totem">
+                  Totem de Autoatencion
+                </Link>
               </div>
             </li>
             <li className="nav-item">
@@ -128,6 +88,7 @@ export function Navbar() {
               </Link>
 
             </li>
+
           </ul>
         </div>
       </nav>

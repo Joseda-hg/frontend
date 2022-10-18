@@ -4,7 +4,7 @@ import { Navbar } from "./Navbar";
 import { Ejercicio } from "./Ejercicio";
 import { Home } from "./Home";
 import { Footer } from "./Footer";
-import { Blog } from "./Blog";
+import { EjercicioList } from "./Bloglist";
 import { About } from "./About";
 import { Contact } from "./Contact";
 import { Post } from "./Post";
@@ -12,6 +12,8 @@ import { Newsletter } from "./Newsletter";
 import { Terminal } from "./Terminal";
 import { Breakout } from "./Breakout";
 import { Clicker } from "./Clicker";
+import { Totem } from "./TotemAutoatencion";
+
 
 export function AppRouter() {
   return (
@@ -33,7 +35,7 @@ export function AppRouter() {
               <Ejercicio />
             </Route>
             <Route exact path="/blog">
-              <Blog />
+              <EjercicioList />
             </Route>
             <Route exact path="/About">
               <About />
@@ -49,6 +51,9 @@ export function AppRouter() {
             </Route>
             <Route path={`/blog/:id`}>
               <Post type="Post" />
+            </Route>
+            <Route path="/Totem">
+              <Totem/>
             </Route>
           </Switch>
         </div>

@@ -43,10 +43,6 @@ function getComando(e: { preventDefault: () => void; }) {
             break; 
         case "cv":
             break;
-        case "about":
-            break;
-        case "projects":
-            break;
         case "help":
             let mensajeAyuda = `Los comandos disponibles son los siguientes
                             clear
@@ -54,8 +50,6 @@ function getComando(e: { preventDefault: () => void; }) {
                             rrss
                             games
                             cv
-                            about
-                            projects
                             help`
             // console.log(mensajeAyuda)
             terminalLog.append(mensajeAyuda, br)

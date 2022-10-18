@@ -131,6 +131,19 @@ footer {
   /* border-radius: 100%; */
 }
 
+/* .shoppingCart{ 
+  color: grey;
+  display: flex;
+  justify-content:space-evenly;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+ } */
+
 .GeneratorIcon{}
 .GeneratorName{}
 .GeneratorDescripcion{}
