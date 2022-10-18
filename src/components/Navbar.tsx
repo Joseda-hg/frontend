@@ -36,18 +36,9 @@ export function Navbar() {
                 Proyectos
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item disabled" href="/">
-                  StudyApp
-                </a>
                 <Link className="dropdown-item" to="/terminal">
                   Terminal
                 </Link>
-                <Link className="dropdown-item disabled" to="/alimentos">
-                  HealthApp
-                </Link>
-                <a className="dropdown-item disabled" href="/">
-                  SalesApp
-                </a>
                 <Link className="dropdown-item" to="/Clicker">
                   Clicker Game
                 </Link>
@@ -58,16 +49,7 @@ export function Navbar() {
                   Document Generator
                 </a>
                 <a className="dropdown-item disabled" href="/">
-                  WebOS
-                </a>
-                <a className="dropdown-item disabled" href="/">
-                  Rustic Game House
-                </a>
-                <a className="dropdown-item disabled" href="/">
                   File Sorter
-                </a>
-                <a className="dropdown-item disabled" href="/">
-                  Control Center
                 </a>
                 <a className="dropdown-item disabled" href="/">
                   Auto Content Generator
@@ -75,6 +57,39 @@ export function Navbar() {
                 <Link className="dropdown-item" to="/Totem">
                   Totem de Autoatencion
                 </Link>
+              </div>
+            </li>
+            <li className="nav-item dropdown disabled">
+              <a
+                className="nav-link dropdown-toggle"
+                href="/"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Coming Soon
+              </a>
+              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a className="dropdown-item disabled" href="/">
+                  StudyApp
+                </a>
+                <Link className="dropdown-item disabled" to="/alimentos">
+                  HealthApp
+                </Link>
+                <a className="dropdown-item disabled" href="/">
+                  SalesApp
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  WebOS
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  Rustic Game House
+                </a>
+                <a className="dropdown-item disabled" href="/">
+                  Control Center
+                </a>
               </div>
             </li>
             <li className="nav-item">
