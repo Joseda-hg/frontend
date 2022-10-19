@@ -42,6 +42,8 @@ function getComando(e: { preventDefault: () => void; }) {
             terminalLog.append(redesSociales, br)
             break; 
         case "cv":
+            let cv = `PENDIENTE AGREGAR PAGINA LANDING CV`
+            terminalLog.append(cv, br)
             break;
         case "help":
             let mensajeAyuda = `Los comandos disponibles son los siguientes
