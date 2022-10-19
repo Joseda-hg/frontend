@@ -9,7 +9,7 @@ function getComando(e: { preventDefault: () => void; }) {
     }
     else{
         console.log(terminal.value)
-        var comando = terminal.value
+        var comando = terminal.value.toLowerCase()
     }
     
     
@@ -26,7 +26,7 @@ function getComando(e: { preventDefault: () => void; }) {
             // console.log("Entro en test")
             break;
         case "clear":
-            terminalLog.innerHTML = "terminal"
+            terminalLog.innerHTML = "Terminal"
             terminalLog.append(br)
             break;
         case "github":
@@ -35,9 +35,9 @@ function getComando(e: { preventDefault: () => void; }) {
             terminalLog.append(mensajeGithub, br)
             break;
         case "rrss":
-            let redesSociales = ` Twitter
-            Instagram
-            YouTube
+            let redesSociales = ` Twitter: https://twitter.com/JoseDH29
+            Instagram: https://www.instagram.com/joseda.hg/
+            YouTube: https://www.youtube.com/channel/UChMlKA_6f2mNJRRbB7RXzkw
             `
             terminalLog.append(redesSociales, br)
             break; 
@@ -68,9 +68,9 @@ function getComando(e: { preventDefault: () => void; }) {
 export function Terminal() {
     return (
         <div id="terminalContainer">
-            <p id="terminalLog">TERMINAL<br></br></p>
+            <p id="terminalLog">Terminal<br></br></p>
             <form onSubmit={getComando} id="terminale">
-                <input id="terminal" placeholder="INSERTAR COMANDO AQUI" type={"textarea"}></input>
+                <input id="terminal" placeholder="$" type={"textarea"}></input>
             </form>
         </div>
     )
