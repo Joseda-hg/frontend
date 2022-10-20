@@ -50,6 +50,7 @@ export function Contact() {
         </div>
         */}
         {/* Fix Controlled vs Uncontrolled; https://reactjs.org/docs/forms.html#controlled-components, related to the value tag */}
+        <br />
         <button
           type="submit"
           className="btn btn-primary btn-block"

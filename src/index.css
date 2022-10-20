@@ -131,6 +131,11 @@ footer {
   /* border-radius: 100%; */
 }
 
+#formButton{
+  padding-bottom: 2%;
+}
+
+
 /* .shoppingCart{ 
   color: grey;
   display: flex;
