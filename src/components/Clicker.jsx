@@ -20,11 +20,17 @@ let genList =  [madera, piedra, hierro, oro, diamante]
 // console.log(`Este es un generador de ${madera.nombre}, genera ${madera.cantidad} por segundo, ${madera.descripcion} y este es el logo ${madera.emoji}`)
 
 
+let whateverAmount = 0
 
-
-let whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
-// let whateverAmount = parseInt(0) 
 // Inicialmente era igual a cero
+
+// Crear una funcion que solo guarde whateveramount despues de que ya este inicializado
+// function save(){
+//   let whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
+// }
+// function load(){
+//   let whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
+// }
 
 
 function generate(){
