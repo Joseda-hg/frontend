@@ -38,8 +38,6 @@ function generate(){
   console.log(whateverAmount)
   let counter = document.getElementById("Counter")
   counter.innerText= `Whatever Counter ${whateverAmount}`
-  // localStorage.setItem("lastname", "Smith");
-  // console.log(localStorage.getItem("lastname"));
   localStorage.setItem("whateveramount", whateverAmount);
   whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
 }

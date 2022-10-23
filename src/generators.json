@@ -1,0 +1,39 @@
+{
+    "generadores": [
+        {
+            "id": "0",
+            "Nombre": "Madera",
+            "Cantidad": "0",
+            "Descripcion": "Descripcion generador de Madera",
+            "Icono": ""
+        },
+        {
+            "id": "1",
+            "Nombre": "Piedra",
+            "Cantidad": "0",
+            "Descripcion": "Descripcion generador de Piedra",
+            "Icono": ""
+        },
+        {
+            "id": "2",
+            "Nombre": "Hierro",
+            "Cantidad": "0",
+            "Descripcion": "Descripcion generador de Hierro",
+            "Icono": ""
+        },
+        {
+            "id": "3",
+            "Nombre": "Oro",
+            "Cantidad": "0",
+            "Descripcion": "Descripcion generador de Oro",
+            "Icono": ""
+        },
+        {
+            "id": "4",
+            "Nombre": "Diamante",
+            "Cantidad": "0",
+            "Descripcion": "Descripcion generador de Diamante",
+            "Icono": ""
+        }
+    ]
+}
