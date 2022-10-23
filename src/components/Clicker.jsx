@@ -23,6 +23,7 @@ let genList =  [madera, piedra, hierro, oro, diamante]
 
 
 let whateverAmount = parseInt(localStorage.getItem("whateveramount")) 
+// let whateverAmount = parseInt(0) 
 // Inicialmente era igual a cero
 
 
