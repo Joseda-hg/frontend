@@ -54,9 +54,9 @@ export function Navbar() {
                 <a className="dropdown-item disabled" href="/">
                   Auto Content Generator
                 </a>
-                {/* <Link className="dropdown-item" to="/Totem">
-                  Totem de Autoatencion
-                </Link> */}
+                  {/* <Link className="dropdown-item" to="/Totem">
+                    Totem de Autoatencion
+                  </Link> */}
               </div>
             </li>
             <li className="nav-item dropdown disabled">
