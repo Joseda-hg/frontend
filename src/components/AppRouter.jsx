@@ -55,6 +55,9 @@ export function AppRouter() {
             <Route path="/Totem">
               <Totem/>
             </Route>
+            <Route path="/Dashboard">
+              <Dashboard/>
+            </Route>
           </Switch>
         </div>
         <Footer />
