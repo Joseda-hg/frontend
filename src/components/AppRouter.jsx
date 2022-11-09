@@ -13,7 +13,7 @@ import { Terminal } from "./Terminal";
 import { Breakout } from "./Breakout";
 import { Clicker } from "./Clicker";
 import { Totem } from "./TotemAutoatencion";
-
+import { Dashboard } from "./Dashboard";
 
 export function AppRouter() {
   return (
