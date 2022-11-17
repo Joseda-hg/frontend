@@ -37,6 +37,7 @@ function generate() {
   counter.innerText = `Whatever Counter ${whateverAmount}`
   localStorage.setItem("whateveramount", whateverAmount);
   whateverAmount = parseInt(localStorage.getItem("whateveramount"))
+  
 }
 
 export function Clicker() {
