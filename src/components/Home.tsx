@@ -113,17 +113,20 @@ export function Home() {
                 </button>
               </div>
             */}
-            <iframe width="1264" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ?&autoplay=1" title="YouTube video player" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen/>
-            </div>
+              <p>Lo intente con la version original, pero el copyright de Universal es mas fuerte que el odio</p>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/88iUchyd86M?controls=0&autoplay=1"
+                      title="YouTube video player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen></iframe>            </div>
           </div>
         </div>
       </div>
       <hr></hr>
-      <Link to="/ejercicios">
-        <button type="button" className="btn btn-primary btn-lg input-block-level ">
-          Llevame a los ejercicios
-        </button>
-      </Link>
+      {/*<Link to="/ejercicios">*/}
+      {/*  <button type="button" className="btn btn-primary btn-lg input-block-level ">*/}
+      {/*    Llevame a los ejercicios*/}
+      {/*  </button>*/}
+      {/*</Link>*/}
     </>
   );
 }
