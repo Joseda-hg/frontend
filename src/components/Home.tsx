@@ -113,38 +113,8 @@ export function Home() {
                 </button>
               </div>
             */}
-            <iframe width="1264" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="1264" height="480" src="https://www.youtube.com/embed/dQw4w9WgXcQ?&autoplay=1" title="YouTube video player" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen/>
             </div>
-          </div>
-        </div>
-      </div>
-      <button
-        type="button"
-        className="btn btn-danger"
-        data-toggle="modal"
-        data-target=".bd-example-modal-lg"
-      >
-        Lee esto antes de navegar el sitio
-      </button>{" "}
-      <div
-        className="modal fade bd-example-modal-lg"
-// @ts-ignore
-        tabIndex={-1}
-        role="dialog"
-        aria-labelledby="myLargeModalLabel"
-        aria-hidden="true"
-        id="myModal"
-      >
-        <div className="modal-dialog modal-lg">
-          <div className="modal-content">
-            Esta pagina esta aun en desarrollo y de momento se mantiene publica
-            para mero efecto demostrativo, Se espera que contenga contenido
-            incompleto, botones no funcionales, solicitudes que no se envian al
-            servidor, contenido plano sin estilo y opciones solo para usuarios
-            de forma publica, si comprendes todo lo que esto conlleva, eres
-            completamente bienvenido a revisar la pagina a placer, y si asi lo
-            deseas de informar cualquier adicion que recomiendes, o fallo que
-            este fuera de los parametros anteriores
           </div>
         </div>
       </div>
